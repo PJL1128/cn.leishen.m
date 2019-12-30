@@ -1,0 +1,381 @@
+.topnav{
+    overflow: hidden;
+    width: 100%;
+    height: calc(643rem/64);
+    height: calc(380rem/64);
+    background-color: #cc0033;
+    border-radius:0 0 calc(80rem/64) calc(80rem/64);
+}
+
+.topnav a img{
+    display: block;
+    float: left;
+    width: calc(100rem/64);
+    padding-top: calc(30rem/64);
+    padding-left: calc(15rem/64);
+}
+
+input{
+    position: absolute;
+    top: calc(20rem/64);
+    left: calc(140rem/64);
+    height: calc(50rem/64);
+    border-radius: calc(50rem/64);
+    border: none;
+    margin-top: calc(5rem/50);
+    padding-left: calc(25rem/64);
+    padding-right: calc(145rem/64);
+}
+
+div .big{
+    /* width: calc(20rem/64); */
+    height: calc(20rem/64);
+}
+
+div .big i{
+    position: absolute;
+    top: calc(30rem/64);
+    right: calc(75rem/64);
+    color: #ccc;
+    font-size: calc(30rem/64);
+    border-left: 1px solid #e5e5e5;
+    padding-left: calc(12rem/64);
+}
+
+.topnav i{
+    float: right;
+    color: #fff;
+    font-size: calc(45rem/64);
+    font-weight: 800;
+    padding-right: calc(40rem/64);
+    margin-top: calc(2rem/64);
+}
+
+.ad{
+    position: relative;
+}
+
+.ad img{
+    position: absolute;
+    top: calc(-265rem/64);
+    left: calc(0rem/64);
+    padding-left: calc(20rem/64);
+    width: calc(600rem/64);
+    border-radius: calc(30rem/64);
+}
+
+
+/* 十个服务 */
+.ten-service{
+    widows: 100%;
+    height: calc(240rem/64);
+    margin-top: calc(60rem/64);
+}
+
+.ten-service ul{
+    width: 100%;
+    overflow: hidden;
+}
+
+.ten-service li{
+    width: 20%;
+    float: left;
+}
+
+.ten-service a{
+    display: block;
+    width: 100%;
+}
+
+.ten-service img{
+    width: 50%;
+    padding-left: calc(35rem/64);
+}
+
+.ten-service span{
+    display: block;
+    text-align: center;
+    padding: calc(10rem/64) 0;
+}
+
+
+/* 雷神快报 */
+.new{
+    width: 100%;
+    height: calc(70rem/64);
+    background-color: #f1f1f1;
+}
+
+.new img{
+    width: calc(108rem/64);
+    height: calc(53/64);
+    margin-top: calc(20rem/64);
+    float: left;
+    margin-left: calc(15rem/64);
+    margin-right: calc(20rem/64);
+}
+
+.new a{
+    display: block;
+    font-size: calc(22rem/64);
+    color: #333;
+    padding-top: calc(22rem/64);
+    box-sizing: border-box;
+}
+
+.new s{
+    display: block;
+    float: right;
+    margin-right: calc(25rem/64);
+    margin-top: calc(-22rem/64);
+}
+
+
+/* 优惠券 */
+.sale{
+    width: 100%;
+    height: calc(140rem/64);
+    position: relative;
+    background-color: #f1f1f1;
+}
+
+.sale a{
+    background-image: url(../img/background-image_1.png);
+    background-size: 100% 100%;
+    width: 50%;
+    height: 100%;
+    margin-left: calc(20rem/64);
+    display: block;
+}
+
+.sale span{
+    display: block;
+    position: absolute;
+    top: calc(33rem/64);
+    left: calc(48rem/64);
+    color: #fff;
+    font-size: calc(34rem/64);
+
+}
+
+.sale s{
+    display: block;
+    position: absolute;
+    top: calc(80rem/64);
+    left: calc(37rem/64);
+    color: #fff;
+    font-size: calc(22rem/64);
+}
+
+.sale b{
+    display: block;
+    position: absolute;
+    top: calc(35rem/64);
+    right: calc(315rem/64);
+    color: #fff;
+    font-size: calc(22rem/64);
+    white-space: normal;
+    width: calc(25rem/64);
+    font-weight: normal;
+    line-height: calc(35rem/64);
+}
+
+
+/* 活动专区 */
+
+.activity{
+    width: 100%;
+    height: calc(400rem/64);
+    background-color: #f1f1f1;
+    padding-top: calc(20rem/64);
+    overflow: hidden;
+}
+
+.activity-title{
+    width: 100%;
+    height: calc(90rem/64);
+    overflow: hidden;
+}
+
+.activity-title-left{
+    float: left;
+    width: calc(30rem/64);
+    height: calc(20rem/64);
+    border-bottom: 2px solid #333;
+    margin-left: calc(240rem/64);
+    margin-top: calc(30rem/64);
+    box-sizing: border-box;
+    margin-right: calc(15rem/64);
+    
+}
+
+.activity-title h3{
+    font-size: calc(30rem/64);
+    line-height: calc(90rem/64);
+}
+
+.activity-title-right{
+    float: right;
+    width: calc(30rem/64);
+    height: calc(20rem/64);
+    border-bottom: 2px solid #333;
+    margin-top: calc(30rem/64);
+    box-sizing: border-box;
+    margin-right: calc(195rem/64);
+}
+
+.activity-product-left{
+    float: left;
+    width: 50%;
+}
+
+.activity-product-left a{
+    display:block;
+}
+
+.activity-product-left img{
+    width: 100%;
+    display:block;
+}
+
+.activity-product-right{
+    float: left;
+    width: 50%;
+}
+
+.activity-product-right-free{
+    overflow: hidden;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    height: calc(152rem/64);
+    box-sizing: border-box;
+}
+
+.activity-product-right-free a{
+    display: block;
+}
+
+.activity-product-right-free a img{
+    width: 33%;
+    float: right;
+}
+
+.activity-product-right-free h3{
+    font-size: calc(30rem/64);
+    color: #333;
+    text-decoration: none;
+    padding: calc(12rem/64) calc(8rem/64);
+}
+
+.activity-product-right-free span{
+    display: block;
+    color: #999;
+    padding: 0 calc(8rem/64);
+    font-size: calc(18rem/64);
+}
+
+.activity-product-right-free s{
+    display: block;
+    color: #1dcfcf;
+    padding: calc(10rem/64);
+    font-size: calc(18rem/64);
+}
+.activity-product-right-Air{
+    float: right;
+    height: 50%;
+}
+.activity-product-right-Air img{
+    width: 100%;
+    height: 100%;
+}
+
+/* 爆品推荐 */
+.recommend{
+    width: 100%;
+    height: calc(430rem/64);
+    background-color: #f1f1f1;
+    overflow: hidden;
+}
+
+.recommend-title{
+    width: 100%;
+    height: calc(90rem/64);
+    overflow: hidden;
+}
+
+.recommend-title-left{
+    float: left;
+    width: calc(30rem/64);
+    height: calc(20rem/64);
+    border-bottom: 2px solid #333;
+    margin-left: calc(240rem/64);
+    margin-top: calc(30rem/64);
+    box-sizing: border-box;
+    margin-right: calc(15rem/64);
+    
+}
+
+.recommend-title h3{
+    font-size: calc(30rem/64);
+    line-height: calc(90rem/64);
+}
+
+.recommend-title-right{
+    float: right;
+    width: calc(30rem/64);
+    height: calc(20rem/64);
+    border-bottom: 2px solid #333;
+    margin-top: calc(30rem/64);
+    box-sizing: border-box;
+    margin-right: calc(195rem/64);
+}
+
+.recommend-product-left{
+    float: left;
+    width: 50%;
+}
+
+.recommend-product-left a{
+    display:block;
+    border-right: 1px solid #ccc;
+}
+
+.recommend-product-left img{
+    width: 100%;
+    display:block;
+}
+
+.recommend-product-right a{
+    width: 50%;
+    display: block;
+    float: left;
+}
+
+.recommend-product-right .top{
+    border-bottom: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.recommend-product-right img{
+    width: 99%;
+    vertical-align: middle
+}
+
+
+/* 911Pro系列 */
+.pro{
+    width:100%;
+}
+
+.pro-title{
+    width: 100%;
+    height: calc(152rem/64);
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.pro-title h3{
+    color: #333;
+    font-size: calc(25rem/64);
+    float: left;
+}
