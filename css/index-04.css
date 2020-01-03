@@ -2,7 +2,7 @@
     width: 99.6%;
     height: calc(85rem/64);
     overflow: hidden;
-    border: 1px solid #ccc;
+    border: calc(2rem/64) solid #ccc;
     background-color: #f7f7f7;
     position: fixed;
     top: 0;
@@ -43,7 +43,7 @@
 .content-left ul{
     width: calc(200rem/64);
     height: 100%;
-    padding-top: calc(88rem/64);
+    padding-top: calc(89rem/64);
 }
 
 .content-left li{
