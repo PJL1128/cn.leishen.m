@@ -1,0 +1,109 @@
+.article{
+    width: 99.6%;
+    height: calc(85rem/64);
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f7f7f7;
+}
+
+.article i{
+    float: left;
+    font-size: calc(40rem/64);
+    color: #333;
+    line-height: calc(90rem/64);
+    padding-left: calc(25rem/64);
+}
+
+.article h1{
+    line-height: calc(55rem/64);
+    color: #333;
+    font-size: calc(28rem/64);
+    padding-left: calc(250rem/64);
+}
+
+
+/* 全部 */
+.all{
+    width: 100%;
+    
+}
+
+.all ul{
+    width: 98%;
+    overflow: hidden;
+    border-bottom: calc(2rem/64) solid #ccc;
+    margin: 0 calc(6rem/64);
+}
+
+.all li{
+    float: left;
+    
+    
+}
+
+.all .first{
+    line-height: calc(60rem/64);
+    font-size: calc(22rem/64);
+    padding: 0 calc(10rem/64);
+    border-bottom: calc(2rem/64) solid #ff0036;
+    height: calc(60rem/64);
+}
+
+.all a{
+    display: block;
+    color: #333;
+    font-size: calc(22rem/64);
+    line-height: calc(60rem/64);
+    text-align: center;
+    padding: 0 calc(12rem/64);
+}
+
+
+/* 内容 */
+.content{
+    width: 100%;
+    height: calc(1850rem/64);
+}
+
+.article-content{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    margin-top: calc(20rem/64);
+}
+
+.article-content .leishen{
+    float:left;
+    margin-right: calc(150rem/64);
+    margin-top: calc(20rem/64);
+    padding-left: calc(142rem/64);
+}
+
+.article-content .leishen h3{
+    font-size: calc(22rem/64);
+    font-weight: 600;
+}
+
+.article-content img{
+    position: absolute;
+    top: calc(0);
+    left: calc(0);
+    width: 18%;
+    padding: calc(20rem/64) 0  calc(20rem/64) calc(10rem/64);
+}
+
+.article-content .first{
+    display: inline-block;
+    width: calc(75rem/64);
+    height: calc(20rem/64);
+    border: calc(2rem/64) solid #ccc;
+    border-radius: calc(16rem/64);
+    padding: calc(2rem/64) calc(8rem/64);
+    color: #999;
+    margin-top: calc(26rem/64);
+    margin-right: calc(4rem/64);
+}
+
+.article-content .second{
+    color: #999;
+}

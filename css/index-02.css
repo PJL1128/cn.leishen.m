@@ -1,0 +1,153 @@
+.fast{
+    width: 100%;
+    overflow: hidden;
+}
+
+.fast h1{
+    margin-left: calc(60rem/64);
+    font-size: calc(30rem/64);
+    font-weight: 300;
+    margin-top: calc(40rem/64);
+    margin-bottom: calc(40rem/64);
+    width: calc(540rem/64);
+}
+
+.fast .phone{
+    float: left;
+    margin-left: calc(60rem/64);
+    border-bottom: 1px solid #ccc;
+    padding-bottom: calc(20rem/64);
+    font-size: calc(20rem/64);
+    width: calc(540rem/64);
+}
+
+.fast .verification-code{
+    float: left;
+    margin-left: calc(60rem/64);
+    border-bottom: 1px solid #ccc;
+    padding-bottom: calc(20rem/64);
+    margin-top: calc(10rem/64);
+    font-size: calc(20rem/64);
+    width: calc(540rem/64);
+}
+
+.fast .dynamic-code{
+    float: left;
+    margin-left: calc(60rem/64);
+    border-bottom: 1px solid #ccc;
+    padding-bottom: calc(20rem/64);
+    margin-top: calc(16rem/64);
+    font-size: calc(20rem/64);
+    width: calc(540rem/64);
+}
+
+input{
+    border: none;
+    padding-left: calc(20rem/64);
+    font-size: calc(18rem/64);
+}
+
+.fast .verification-code img{
+    width: calc(120rem/64);
+    margin-top: calc(5rem/64);
+    margin-bottom: calc(-13rem/64);
+}
+
+.fast .dynamic-code s{
+    width: calc(70rem/64);
+    height: calc(30rem/64);
+    color: #0dcecb;
+    border: 1px solid #0dcecb;
+    border-radius: calc(40rem/64);
+    padding: calc(7rem/64);
+    font-size: calc(16rem/64);
+}
+
+
+/* 登陆 */
+.load{
+    margin-left: calc(60rem/64);
+    color: #333;
+    background-color: #00eef3;
+    margin-top: calc(20rem/64);
+    border: none;
+    width: calc(540rem/64);
+    height: calc(60rem/64);
+    font-size: calc(22rem/64);
+    border-radius: calc(4rem/64);
+}
+
+
+
+/* 立即注册 */
+.sign-in{
+    margin-left: calc(60rem/64);
+    color: #0dcecb;
+    margin-top: calc(20rem/64);
+    border: none;
+    width: calc(540rem/64);
+    height: calc(60rem/64);
+    font-size: calc(22rem/64);
+    border: 1px solid #0dcecb;
+    background-color: #fff;
+    border-radius: calc(4rem/64);
+}
+
+
+/* 账号登陆 */
+.id{
+    float: right;
+    margin-right: calc(60rem/64);
+    margin-top: calc(26rem/64);
+    color: #898989;
+    font-size: calc(22rem/64);
+}
+
+/* 使用以下账号登陆 */
+.left{
+    float: left;
+    width: calc(155rem/64);
+    height: calc(20rem/64);
+    border-bottom: 2px solid #d5d5d5;
+    margin-left: calc(85rem/64);
+    margin-top: calc(110rem/64);
+    box-sizing: border-box;
+    margin-right: calc(17rem/64);
+}
+
+.use{
+   line-height: calc(255rem/64);
+   color: #b0b0b0;
+}
+
+.right{
+    float: right;
+    width: calc(155rem/64);
+    height: calc(20rem/64);
+    border-bottom: 2px solid #d5d5d5;
+    margin-top: calc(-145rem/64);
+    box-sizing: border-box;
+    margin-right: calc(65rem/64);
+}
+
+
+/* QQ */
+.qq img{
+    margin-top: calc(-50rem/64);
+    width: calc(63rem/64);
+    margin-left: calc(290rem/64);
+}
+
+
+/* 底部 */
+.footer a img{
+    width: calc(140rem/64);
+    margin-left: calc(255rem/64);
+    margin-top: calc(80rem/64);
+}
+
+.footer p{
+    text-align:center;
+    color: #999;
+    padding-left: calc(12rem/64);
+}

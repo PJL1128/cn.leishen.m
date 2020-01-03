@@ -1,0 +1,264 @@
+.product{
+    width: 99.6%;
+    height: calc(85rem/64);
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f7f7f7;
+    position: fixed;
+    top: 0;
+}
+
+.product i{
+    float: left;
+    font-size: calc(40rem/64);
+    color: #333;
+    line-height: calc(90rem/64);
+    padding-left: calc(25rem/64);
+}
+
+.product h1{
+    line-height: calc(55rem/64);
+    color: #333;
+    font-size: calc(28rem/64);
+    padding-left: calc(250rem/64);
+}
+
+
+
+
+/* 内容 */
+.content{
+    width: 100%;
+    display: flex;
+    /* height: calc(100rem/64); */
+}
+
+.content-left{
+    width: calc(200rem/64);
+    height: 100%;
+    position: fixed;
+    left: 0;
+}
+
+.content-left ul{
+    width: calc(200rem/64);
+    height: 100%;
+    padding-top: calc(88rem/64);
+}
+
+.content-left li{
+    background-color: #f4f5f7;
+    border-bottom: calc(2rem/64) solid #fff;
+}
+
+.content-left .first{
+    border-left: calc(4rem/64) solid #ff0036;
+    background-color: #fff;
+}
+
+.content-left a{
+    color: #333;
+    font-size: calc(22rem/64);
+    padding: calc(20rem/64) calc(18rem/64);
+    width: calc(40rem/64);
+    line-height: calc(80rem/64);
+    margin-left: calc(30rem/64);
+    
+}
+
+.content-right{
+    flex: 1;
+    padding-left: calc(200rem/64);
+    padding-top: calc(88rem/64);
+}
+
+.Pro-title{
+    overflow: hidden;
+}
+
+.content-right .Pro-title h3{
+    line-height: calc(80rem/64);
+    font-size: calc(24rem/64);
+    float: left;
+    margin-left: calc(16rem/64);
+}
+
+.content-right .Pro-title i{
+    line-height: calc(80rem/64);
+    font-size: calc(30rem/64);
+    float: right;
+    margin-right: calc(30rem/64);
+}
+
+.content-right ul{
+    width: 100%;
+    overflow: hidden;
+}
+
+.content-right li{
+    width: 50%;
+    float: left;
+    padding-left: calc(16rem/64);
+    box-sizing: border-box;
+}
+
+.content-right a{
+    display: block;
+    width: 100%;
+}
+
+.content-right img{
+    width: 88%;
+}
+
+.content-right p{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+}
+
+
+
+/* Air系列 */
+.Air-title{
+    overflow: hidden;
+}
+
+.content-right .Air-title h3{
+    line-height: calc(80rem/64);
+    font-size: calc(24rem/64);
+    float: left;
+    margin-left: calc(16rem/64);
+}
+
+.content-right .Air-title i{
+    line-height: calc(80rem/64);
+    font-size: calc(30rem/64);
+    float: right;
+    margin-right: calc(30rem/64);
+}
+
+
+
+/* M系列 */
+.M-title{
+    overflow: hidden;
+}
+
+.content-right .M-title h3{
+    line-height: calc(80rem/64);
+    font-size: calc(24rem/64);
+    float: left;
+    margin-left: calc(16rem/64);
+}
+
+.content-right .M-title i{
+    line-height: calc(80rem/64);
+    font-size: calc(30rem/64);
+    float: right;
+    margin-right: calc(30rem/64);
+}
+
+
+
+
+/* 17.3英寸大屏 */
+.big-title{
+    overflow: hidden;
+}
+
+.content-right .big-title h3{
+    line-height: calc(80rem/64);
+    font-size: calc(24rem/64);
+    float: left;
+    margin-left: calc(16rem/64);
+}
+
+.content-right .big-title i{
+    line-height: calc(80rem/64);
+    font-size: calc(30rem/64);
+    float: right;
+    margin-right: calc(30rem/64);
+}
+
+
+/* 16.6英寸电竞 */
+.electric-title{
+    overflow: hidden;
+}
+
+.content-right .electric-title h3{
+    line-height: calc(80rem/64);
+    font-size: calc(24rem/64);
+    float: left;
+    margin-left: calc(16rem/64);
+}
+
+.content-right .electric-title i{
+    line-height: calc(80rem/64);
+    font-size: calc(30rem/64);
+    float: right;
+    margin-right: calc(30rem/64);
+}
+
+
+
+
+/* 设计师本 */
+.designer-title{
+    overflow: hidden;
+}
+
+.content-right .designer-title h3{
+    line-height: calc(80rem/64);
+    font-size: calc(24rem/64);
+    float: left;
+    margin-left: calc(16rem/64);
+}
+
+.content-right .designer-title i{
+    line-height: calc(80rem/64);
+    font-size: calc(30rem/64);
+    float: right;
+    margin-right: calc(30rem/64);
+}
+
+
+
+
+/* 固定导航 */
+div.footer-nav{
+    width: 100%;
+    height: calc(90rem/64);
+    position: fixed;
+    bottom: 0;
+}
+
+.footer-nav ul{
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+
+.footer-nav li{
+    float: left;
+    width: 25%;
+    background-color: #fff;
+}
+
+.footer-nav img{
+    width: calc(36rem/64);
+    height: calc(36rem/64);
+    padding: calc(10rem/64) 0;
+}
+
+.footer-nav span{
+    display: block;
+    font-size: calc(18rem/64);
+    padding-bottom: calc(10rem/64);
+}
+
+body{
+    margin-bottom:calc(90rem/64)
+}
