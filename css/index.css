@@ -24,7 +24,7 @@ input{
     border: none;
     margin-top: calc(5rem/50);
     padding-left: calc(25rem/64);
-    padding-right: calc(145rem/64);
+    padding-right: calc(100rem/64);
 }
 
 div .big{
@@ -47,7 +47,7 @@ div .big i{
     color: #fff;
     font-size: calc(45rem/64);
     font-weight: 800;
-    padding-right: calc(40rem/64);
+    padding-right: calc(20rem/64);
     margin-top: calc(2rem/64);
 }
 
@@ -127,7 +127,7 @@ div .big i{
     display: block;
     float: right;
     margin-right: calc(25rem/64);
-    margin-top: calc(-22rem/64);
+    margin-top: calc(-48rem/64);
 }
 
 
@@ -431,6 +431,10 @@ div .big i{
     background-color: #fff;
 }
 
+.Pro-product li{
+    height: calc(470rem/64);
+}
+
 .Pro-product li:nth-child(even){
     float: right;
     width: 49%;
@@ -538,6 +542,10 @@ div .big i{
     padding: 0 calc(10rem/64);
     box-sizing: border-box;
     background-color: #fff;
+}
+
+.Air-product li{
+    height: calc(470rem/64);
 }
 
 .Air-product li:nth-child(even){
@@ -752,6 +760,10 @@ div .big i{
     background-color: #fff;
 }
 
+.screen-product li{
+    height: calc(470rem/64);
+}
+
 .screen-product li:nth-child(even){
     float: right;
     width: 49%;
@@ -964,6 +976,10 @@ div .big i{
     background-color: #fff;
 }
 
+.game-product li{
+    height: calc(470rem/64);
+}
+
 .game-product li:nth-child(even){
     float: right;
     width: 49%;
@@ -1068,6 +1084,10 @@ div .big i{
     padding: 0 calc(10rem/64);
     box-sizing: border-box;
     background-color: #fff;
+}
+
+.mouse-product li{
+    height: calc(470rem/64);
 }
 
 .mouse-product li:nth-child(even){
@@ -1293,6 +1313,10 @@ div .big i{
     background-color: #fff;
 }
 
+.bag-product li{
+    height: calc(470rem/64);
+}
+
 .bag-product a{
     width: 100%;
     display: block;
@@ -1388,6 +1412,10 @@ div .big i{
     padding: 0 calc(10rem/64);
     box-sizing: border-box;
     background-color: #fff;
+}
+
+.other-product li{
+    height: calc(470rem/64);
 }
 
 .other-product li:nth-child(even){
@@ -1690,7 +1718,7 @@ div .big i{
 .footer span{
     display: block;
     font-size: calc(26rem/64);
-   margin-left: calc(460rem/64);
+    margin-left: calc(440rem/64);
 }
 
 
