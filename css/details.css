@@ -777,9 +777,7 @@ body{
     margin-left: calc(2rem/64);
 }
 
-.footer-nav span{
-    /* margin-right: calc(10rem/64); */
-}
+
 
 .footer-nav h3{
     float: left;
